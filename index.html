@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Veera Organic Farming</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Veera Organic Farming</h1>
+    <p>Fresh, organic produce straight from our farm.</p>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="product-list">
+        <div class="product">
+          <h3>Organic White Rice</h3>
+          <p>Price: $3 per lb</p>
+          <button onclick="addToCart('Organic White Rice')">Add to Cart</button>
+        </div>
+        <div class="product">
+          <h3>Organic Quiona </h3>
+          <p>Price: $3 per lb</p>
+          <button onclick="addToCart('Organic Quinoa')">Add to Cart</button>
+        </div>
+        <div class="product">
+          <h3>Organic Eggs</h3>
+          <p>Price: $5 per dozen</p>
+          <button onclick="addToCart('Organic Eggs')">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a small family-owned farm dedicated to sustainable, organic farming practices. Our mission is to provide high-quality, fresh produce while caring for the environment.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Organic Farming. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

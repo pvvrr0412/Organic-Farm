@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+
+  /* Add background image */
+  background-image: url('background.jpg');
+  background-size: cover;      /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  background-position: center; /* Centers the image on the page */
+  color: black; /* Black text color for better readability */
+}
+
+/* Header */
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white; /* Keep header text white for contrast against dark background */
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom: 2px solid #4CAF50;
+}
+
+/* Navigation */
+nav ul {
+  background: transparent; /* Fully transparent background for the navbar */
+  list-style: none;
+  padding: 10px 0; /* Add some padding */
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white; /* Keep text white for visibility */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #4CAF50; /* Change link color on hover */
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Light background for better readability */
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  color: black; /* Black text in the main content */
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  background: white; /* Background for product cards */
+  color: black; /* Black text for readability */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white; /* Keep footer text white for contrast against dark background */
+  margin-top: 20px;
+}
